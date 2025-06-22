@@ -1,22 +1,27 @@
 # Tic-tac-toe in terminal
 
-Inspirated by [Sebastian Lague's video on minimax and alpha-beta pruning](https://www.youtube.com/watch?v=l-hh51ncgDI) and [Kylie Ying's video on implementing minimax on Tic Tac Toe](https://www.youtube.com/watch?v=fT3YWCKvuQE).
+Inspired by [Sebastian Lague's video on minimax and alpha-beta pruning](https://www.youtube.com/watch?v=l-hh51ncgDI) and [Kylie Ying's video on implementing minimax on Tic Tac Toe](https://www.youtube.com/watch?v=fT3YWCKvuQE).
 
 Requires Python version >= 3.10
 
+## Run the script
+Run the file using Python like `python3 main.py` / `python main.py` or `./main.py`
+
 ## How to play
-At startup, choose if players (`X` and `O`) are human or computers.
+At startup :
+- choose who plays for `X`. In the terminal, type `1` for a human, `2` for a weak computer and `3` for a strong computer. Then press `Enter`.
+- choose who plays for `O`. In the terminal, type `1` for a human, `2` for a weak computer and `3` for a strong computer. Then press `Enter`.
 
-Then place your inputs with numpad keyboard. 
 
-The cells of the 3x3 grid are key binded to this:
+Then place your inputs with by typing a number from `1` to `9` then press `Enter`. Each input is mapped to the grid like a numpad keyboard like this:
 ```
 7 8 9
 4 5 6
 1 2 3
 ```
 
-(just like a standard numpad keyboard).
+Available cells are displayed with a dot `.`.
+
 
 ## Computers implementation
 
